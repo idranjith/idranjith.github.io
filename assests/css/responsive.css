@@ -481,4 +481,7 @@
 	/* color: #42bc7f; */
 	color: #2199ea;
 }
+.skill .progress .progress-bar span{
+	right: -34px;
+}
 }
