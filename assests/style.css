@@ -198,7 +198,9 @@ a:hover{
 #scrollUp:hover{
 	background:#333;
 }
-
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	color: #249e5e;
+}
 /*=========================
 	Header CSS
 ===========================*/
