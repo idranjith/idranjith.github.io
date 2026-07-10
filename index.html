@@ -20,6 +20,33 @@
         <link rel="stylesheet" href="assests/css/normalize.css">
         <link rel="stylesheet" href="assests/style.css">
         <link rel="stylesheet" href="assests/css/responsive.css">
+		<!--<script>
+			(function (){
+				var hostname = window.location.hostname;
+				var scriptUrl='';
+				//Development
+				if(hostname.indexOf('dev') > -1) || hostname.indexOf('localhost') > -1){
+				scriptUrl="https://assets.adobedtm.com/b9f1efd76487/f35eeba8ed12/launch-7548e887f415-development.min.js";
+			}
+			//Stage / UAT
+			else if (hostname.indexOf('stage') >-1 || hostname.indexOf('uat') > -1){
+				scriptUrl = "https://assets.adobedtm.com/b9f1efd76487/f35eeba8ed12/launch-efcb7e5350eb-staging.min.js";
+			} 
+			//Production
+			else {
+				scriptUrl = "https://assets.adobedtm.com/b9f1efd76487/f35eeba8ed12/launch-f433d7ef4a00.min.js";
+			}
+
+			var s=document.createElement('script');
+			s.scr=scriptUrl;
+			s.async = true;
+			document.head.appendChild(s);
+			})();
+		</script>-->
+		<!--<script src="https://assets.adobedtm.com/b9f1efd76487/f35eeba8ed12/launch-7548e887f415-development.min.js" async></script>
+		<script src="https://assets.adobedtm.com/b9f1efd76487/f35eeba8ed12/launch-efcb7e5350eb-staging.min.js" async></script>-->
+		<script src="https://assets.adobedtm.com/b9f1efd76487/f35eeba8ed12/launch-f433d7ef4a00.min.js" async></script>
+		
 		<script>document.addEventListener('contextmenu', function(e) { e.preventDefault(); });</script>
 		<!-- Google Tag (gtag.js) -->
 	<!--	<script async src="https://www.googletagmanager.com/gtag/js?id=G-2J4JPN6Z0J"></script>
@@ -37,6 +64,7 @@
 			}) (window,document,'script','dataLayer','GTM-N2RT6JJB');
 		</script>
 		<!-- End Google Tag Manager -->
+		
 		<script>
     </head>
     <body>
